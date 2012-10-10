@@ -1,9 +1,9 @@
-"英語メニューにする
+" english menu
 source $VIMRUNTIME/delmenu.vim 
 set langmenu=none 
 source $VIMRUNTIME/menu.vim
 
-"英語メッセージにする
+" english messages
 if has("multi_lang")
 language C
 endif
@@ -94,5 +94,10 @@ set nowrap
 set expandtab
 
 set tags+=./tmp/tags
+
 gui
 set transparency=220
+
+
+
+
